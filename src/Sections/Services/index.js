@@ -330,19 +330,19 @@ const Services = () => {
       <Content ref={addToRefs}>
         <TextBlock
           topic="Design & Wireframing"
-          title={<h1>Utilizing optimal design principles</h1>}
-          subText={<h5>Easy to use and intuitive interfaces</h5>}
+          title={<h1>Low cost property management</h1>}
+          subText={<h5>Low cost at 69$ a month per unit</h5>}
         />
         <SvgBlock svg="Design.svg" />
       </Content>
       <Content ref={addToRefs}>
         <TextBlock
           topic="Develop & Test"
-          title={<h1>We Develop high quality integrated apps</h1>}
+          title={<h1>High Quality Tenants</h1>}
           subText={
             <h5>
-              Our integrated apps work with existing platforms to keeps costs
-              low.
+              Our tenant screening process ensures we get the right people in
+              your home.
             </h5>
           }
         />
@@ -351,11 +351,11 @@ const Services = () => {
       <Content>
         <TextBlock
           topic="Deployment & Support"
-          title={<h1>We provide support post deployment</h1>}
+          title={<h1>Quality Guarenteed</h1>}
           subText={
             <h5>
-              Once your system is deployed you can choose to gave extra support
-              and free support under our scope guarantee <br />
+              We won't charge $80 to change a lightbulb, small ticket
+              manitinence is FREE.
             </h5>
           }
         />

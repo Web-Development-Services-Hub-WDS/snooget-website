@@ -47,7 +47,8 @@ const Footer = () => {
   return (
     <FOOTER>
       <LeftText>
-        © 2021 Built and Design by <a href="">@OCOMNI | DESIGN</a>
+        © 2021 Built and Design by{" "}
+        <a href="https://www.ocomni.com/">@OCOMNI | DESIGN</a>
       </LeftText>
     </FOOTER>
   );

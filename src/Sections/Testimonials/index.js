@@ -80,19 +80,19 @@ const Testimonials = () => {
 
   return (
     <Section>
-      <Title>Here's some reviews!</Title>
+      {/* <Title>Here's some reviews!</Title>
       <Carousal>
         <Slider {...settings}>
           <Card
-            text=" Ocomni has been essential for saving money. By automating the proposal process for oboarding advisors entering our firm."
+            text=" Snooget has been essential for saving money. By automating my management I just get a check every month in the mail."
             name=" Timothy Garcia"
-            company="(CUSO Financial Services, L.P.)"
+            company=""
             image="avatar-1"
           />
 
-          {/* <Card video="" /> */}
+          {/* <Card video="" />
         </Slider>
-      </Carousal>
+      </Carousal> */}
     </Section>
   );
 };

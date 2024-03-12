@@ -206,7 +206,7 @@ const Contact = () => {
     <ContactSection id="contact">
       <Title>Get in touch</Title>
       {/* <Text>Lorem ipsum dolor sit amet, consectetur adipisicing.</Text> */}
-      <Icons>
+      {/* <Icons>
         <a href="">
           {" "}
           <img src={Facebook} alt="Facebook" />
@@ -220,7 +220,7 @@ const Contact = () => {
         <a href="">
           <img src={Instagram} alt="Instagram" />
         </a>
-      </Icons>
+      </Icons> */}
       <Container>
         <Form onSubmit={onSubmitCONTACT}>
           <Row>

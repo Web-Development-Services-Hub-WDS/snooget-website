@@ -272,10 +272,10 @@ const HeroSection = () => {
         <Lb id="leftBlock">
           <Topic>
             <Circle />
-            <span>We automate data</span>
+            <span>We automate management</span>
           </Topic>
           <Title>
-            Save time & money with <span>OCOMNI</span> data automation
+            Save time & money with <span>Snooget</span> property management
           </Title>
           <SubText></SubText>
           <CTA href="#about" onClick={(e) => scrollUp("services", e)}>

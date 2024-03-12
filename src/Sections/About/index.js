@@ -155,30 +155,16 @@ const About = () => {
             </Human>
 
             <Text>
-              Gone are the days of inputting excel data by hand into your
-              advisory platform, or spending time and money hiring data entry
-              workers.
+              Got property in San Diego? Tired of tenants and toilets? Let us
+              handle your day to day!
             </Text>
             <Text>
-              We create integrated applications to streamline data automation
-              for advisory service consultants.
+              Focus on what matters and enjoy your valuable time. Let us handle
+              the day to day of tenant screening, property listings, showings,
+              maintenance, negotiation and more!
             </Text>
-            {/* <div>
-              <Circle style={{ backgroundColor: "var(--purple)" }} />
-              <Circle style={{ backgroundColor: "var(--pink)" }} />
-              <Circle style={{ backgroundColor: "var(--black)" }} />
-            </div> */}
           </AboutText>
         </Content>
-        <VideoContainer>
-          <video controls autoPlay muted>
-            <source
-              src="https://res.cloudinary.com/dscoioscc/video/upload/v1703952163/wvtbmeetyrikmihj6lry.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
-        </VideoContainer>
       </Main>
     </AboutSection>
   );

@@ -263,7 +263,7 @@ const Header = () => {
   return (
     <Headers ref={ref}>
       <Logo>
-        <h3>Ocomni</h3>
+        <h3>Snooget</h3>
       </Logo>
       <Nav>
         <a href="#home" onClick={(e) => scrollUp("home", e)}>
@@ -272,10 +272,6 @@ const Header = () => {
         <a href="#about" onClick={(e) => scrollUp("about", e)}>
           About Us
         </a>
-        <a href="#services" onClick={(e) => scrollUp("services", e)}>
-          Case Studies
-        </a>
-        <a onClick={() => navigate("/all-blogs")}>Blog</a>
         <a href="#contact" onClick={(e) => scrollUp("contact", e)}>
           <Button>Contact Us</Button>
         </a>
@@ -290,10 +286,6 @@ const Header = () => {
         <a href="#about" onClick={(e) => handleClick("about", e)}>
           About Us
         </a>
-        <a href="#services" onClick={(e) => handleClick("services", e)}>
-          Case Studies
-        </a>
-        <a onClick={(e) => handleClick("/all-blogs", e)}>Blog</a>
         <a href="#contact" onClick={(e) => handleClick("contact", e)}>
           <Button>Contact Us</Button>
         </a>
